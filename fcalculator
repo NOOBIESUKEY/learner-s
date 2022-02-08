@@ -1,13 +1,12 @@
 # for begginers in python
-# this code finds addition, substraction, division, multiplication, remainder, exponential of 2 numbers...  
+# this code finds addition, substraction, division, multiplication, remainder, exponential of 2 numbers... 
+
 
 while(True):
     print("**Calculator**")
-    # print("")
     num1 = float(input("Enter a number = "))
     ope = str(input("Select operator(+, -, *, /,%) = "))
     num2 = float(input("Enter a number = "))
-    # print(str(num1))
     while (True):
         if ope == "+":
             print(str(num1),"+",str(num2),"=",float(num1 + num2))
