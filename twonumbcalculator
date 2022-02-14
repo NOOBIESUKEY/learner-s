@@ -6,7 +6,7 @@ while(True):
     print("**Calculator**")
     num0 = input("Enter a number = ")
     num1 = float(num0)
-    ope = str(input("Select operator(\n +(Addition),\n -(Subtraction),\n *(Multiplication),\n /(Division),\n %(Modulus),\n **(Exponentiation),\n //(Floor division) = "))
+    ope = str(input("(\n +(Addition),\n -(Subtraction),\n *(Multiplication),\n /(Division),\n %(Modulus),\n **(Exponentiation),\n //(Floor division) \n)\n Select operator= "))
     num2 = float(input("Enter a number = "))
     while (True):
         if ope == "+":
