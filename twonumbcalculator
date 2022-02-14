@@ -28,4 +28,7 @@ while(True):
             print(str(num1),"**",str(num2),"=",float(num1 ** num2))
             print("")
             break
-
+        if ope == "/":
+            print(str(num1),"/",str(num2),"=",float(num1 / num2))
+            print("")
+            break
